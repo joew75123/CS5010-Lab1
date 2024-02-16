@@ -1,7 +1,9 @@
 package Birds;
 
 import java.util.List;
-
+/**
+ * Represents shorebirds living near water sources like wetlands and shorelands.
+ */
 public class Shorebird extends BaseBird implements WaterBirdCharacteristics{
 
     private final String waterBody;

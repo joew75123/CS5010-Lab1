@@ -2,10 +2,12 @@ package Birds;
 
 import java.util.List;
 
-// Waterfowl class implementing the WaterBirdCharacteristics interface and extending BaseBird
+/**
+ * Represents waterfowl living near water sources such as ducks, swans, and geese.
+ */
 public class Waterfowl extends BaseBird implements WaterBirdCharacteristics {
     private final String waterBody;
-    public Waterfowl(String type, String definingCharacteristic, boolean extinct, int numberOfWings, List<String> preferFood, String waterBody) {
+    public Waterfowl(String type, String definingCharacteristic, boolean extinct, int numberOfWings, List<FoodOption> preferFood, String waterBody) {
         super(type, definingCharacteristic, extinct, numberOfWings, preferFood);
         this.waterBody = waterBody;
     }

@@ -1,7 +1,9 @@
 package Birds;
 
 import java.util.List;
-
+/**
+ * Represents parrots known for their intelligence and ability to mimic sounds.
+ */
 public class Parrot extends BaseBird implements ParrotCharacteristics {
 
     private final int vocabularySize;
